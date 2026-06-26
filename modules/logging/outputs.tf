@@ -1,5 +1,5 @@
 output "cloudtrail_bucket_name" {
-  value = aws_s3_bucket_versioning.cloudtrail_logs
+  value = aws_s3_bucket_versioning.cloudtrail_logs.bucket
 }
 
 output "kms_key_arn" {
